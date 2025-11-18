@@ -103,7 +103,7 @@ For an overdetermined system \\({\bf A x}\cong {\bf b}\\), we are typically look
 
 $$\min_{ {\bf x} } \|{\bf r}\|_2^2 = \min_{ {\bf x} } \|{\bf b} - {\bf A}  {\bf x}\|_2^2.$$
 
-This problem \\(A {\bf x} \cong {\bf b}\\) is called a **_linear least-squares problem_**, and the solution \\({\bf x}\\) is called the **_least-squares solution_**. $${\bf A}$$ is an $${m \times n}$$ matrix where $${m \ge n}$$,  $${m}$$ is the number of data pair points and $${n}$$ is the number of parameters of the "best fit" function. The Linear Least Squares problem, \\(A {\bf x} \cong {\bf b}\\), **_always_** has a solution. This solution is unique if and only if $${rank({\bf A})= n}$$. 
+This problem \\(A {\bf x} \cong {\bf b}\\) is called a **_linear least-squares problem_**, and the solution \\({\bf x}\\) is called the **_least-squares solution_**. $${\bf A}$$ is an $${m \times n}$$ matrix where $${m \ge n}$$,  $${m}$$ is the number of data pair points and $${n}$$ is the number of parameters of the "best fit" function. This solution is unique if and only if $${\mathrm{rank}({\bf A})= n}$$. 
 
 ## Normal Equations
 
